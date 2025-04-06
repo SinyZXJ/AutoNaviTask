@@ -33,12 +33,21 @@ cd AutoNaviTask-main
 
 rosdep install --from-paths src --ignore-src -r -y
 
+# You may not have access to devel & build, please delete the 2 directories and run following commands.
 catkin_make
 source devel/setup.bash
 
+# Terminal1:
+conda deactivate # if you set conda as default environment
+source devel/setup.bash
 roslaunch me5413_world world.launch
+
+#Terminal2:
+conda deactivate # if you set conda as default environment
+source devel/setup.bash
 roslaunch me5413_world navigation.launch
 
+# Terminal3:
 cd src/me5413_world
 python3 main.py
 ```
