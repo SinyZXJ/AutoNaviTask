@@ -51,6 +51,30 @@ cd src/me5413_world
 python3 main.py
 ```
 
+## Mapping
+In first terminal:
+```
+roslaunch me5413_world world.launch
+```
+
+In second terminal:
+```
+roslaunch me5413_world mapping.launch
+```
+
+In third terminal:
+```
+roslaunch fast_lio mapping_velodyne.launch
+```
+
+The PCD file will be saved under ```src/FAST_LIO/PCD/scans.pcd```
+
+Then run
+```
+python pcd2costmap.py
+```
+To convert PCD to 2D costmap.
+
 ## Contribution
 
 **Haozheng - *Step1 Planning + Point Cloud Matching + Navigate to Final Box***
