@@ -5,7 +5,7 @@ Members: Haozheng, Sihan, Zaishu, Xingjian, Haoze, Yile
 
 ## Task Overview
 
-![task_cover](C:\Users\SinyZ\Desktop\Group1\AutoNaviTask\task_cover.png)
+![task_cover](pics\task_cover.png)
 
 Detailed requirements are as listed under: [NUS-Advanced-Robotics-Centre/ME5413_Final_Project: NUS ME5413 Autonomous Mobile Robotics Final Project](https://github.com/NUS-Advanced-Robotics-Centre/ME5413_Final_Project)
 
@@ -45,14 +45,28 @@ python3 main.py
 
 ## Contribution
 
-Haozheng - *Step1 Planning + Point Cloud Matching + Navigate to Final Box*
+**Haozheng - *Step1 Planning + Point Cloud Matching + Navigate to Final Box***
 
-Sihan - *Mapping + Localization*
+![t1plan](pics\t1plan.png)
 
-Zaishu - *Planning (RL Methods & Basic Methods)*
+![select](pics\select.png)
 
-Xingjian - *Planning (RL Methods & Basic Methods) + Slides Making*
+**Sihan - *Mapping + Localization***
 
-Haoze - *Numbers Recognition + Paper Writing*
+![mapping](pics\mapping.png)
 
-Yile - *Bridge Recognition + Crossing*
+**Zaishu - *Planning (RL Methods & Basic Methods)***
+
+![count](pics\count.png)
+
+**Xingjian - *Planning (RL Methods & Basic Methods) + Slides Making***
+
+![rl](pics\rl.png)
+
+**Haoze - *Numbers Recognition + Paper Writing***
+
+![reco](pics\reco.png)
+
+**Yile - *Bridge Recognition + Crossing***
+
+<img src="pics\bridge.png" alt="bridge" style="zoom:150%;" />
