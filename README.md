@@ -5,7 +5,7 @@ Members: Haozheng, Sihan, Zaishu, Xingjian, Haoze, Yile
 
 ## Task Overview
 
-![task_cover](C:\Users\SinyZ\Desktop\Group1\AutoNaviTask\task_cover.png)
+![task_cover](task_cover.png)
 
 Detailed requirements are as listed under: [NUS-Advanced-Robotics-Centre/ME5413_Final_Project: NUS ME5413 Autonomous Mobile Robotics Final Project](https://github.com/NUS-Advanced-Robotics-Centre/ME5413_Final_Project)
 
