@@ -56,25 +56,25 @@ python3 main.py
 
 **Haozheng - *Step1 Planning + Point Cloud Matching + Navigate to Final Box***
 
-![t1plan](pics\t1plan.png)
+<img src="pics\t1plan.png" alt="bridge" style="zoom:100%;" />
 
-![select](pics\select.png)
+<img src="pics\select.png" alt="bridge" style="zoom:100%;" />
 
 **Sihan - *Mapping + Localization***
 
-![mapping](pics\mapping.png)
+<img src="pics\mapping.png" alt="bridge" style="zoom:100%;" />
 
 **Zaishu - *Planning (RL Methods & Basic Methods)***
 
-![count](pics\count.png)
+<img src="pics\count.png" alt="bridge" style="zoom:100%;" />
 
 **Xingjian - *Planning (RL Methods & Basic Methods) + Slides Making***
 
-![rl](pics\rl.png)
+<img src="pics\rl.png" alt="bridge" style="zoom:100%;" />
 
 **Haoze - *Numbers Recognition + Paper Writing***
 
-![reco](pics\reco.png)
+<img src="pics\reco.png" alt="bridge" style="zoom:100%;" />
 
 **Yile - *Bridge Recognition + Crossing***
 
