@@ -1,0 +1,8 @@
+prefix=/home/george/dong/devel/.private/me5413_world
+
+Name: me5413_world
+Description: Description of me5413_world
+Version: 0.0.0
+Cflags: -I/home/george/dong/src/me5413_world/include
+Libs: -L${prefix}/lib 
+Requires: 

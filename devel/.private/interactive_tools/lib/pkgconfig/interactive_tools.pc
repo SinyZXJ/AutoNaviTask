@@ -1,0 +1,8 @@
+prefix=/home/george/dong/devel/.private/interactive_tools
+
+Name: interactive_tools
+Description: Description of interactive_tools
+Version: 0.0.0
+Cflags: -I/home/george/dong/src/interactive_tools/include
+Libs: -L${prefix}/lib 
+Requires: 

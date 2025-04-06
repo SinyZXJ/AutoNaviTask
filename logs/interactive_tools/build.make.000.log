@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target simple_panel_autogen[0m
+[ 14%] [34m[1mAutomatic MOC for target simple_panel[0m
+[ 14%] Built target simple_panel_autogen
+[ 28%] [34m[1mGenerating ui_simple_panel.h[0m
+[ 42%] [34m[1mGenerating include/interactive_tools/moc_rviz_panel.cpp[0m
+[35m[1mScanning dependencies of target simple_panel[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/simple_panel.dir/simple_panel_autogen/mocs_compilation.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/simple_panel.dir/include/interactive_tools/moc_rviz_panel.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/simple_panel.dir/src/rviz_panel.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/george/dong/devel/.private/interactive_tools/lib/libsimple_panel.so[0m
+[100%] Built target simple_panel

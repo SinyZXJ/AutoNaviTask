@@ -1,0 +1,1 @@
+/home/george/dong/devel/.private/interactive_tools/lib/pkgconfig/interactive_tools.pc

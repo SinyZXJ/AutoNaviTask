@@ -1,0 +1,1 @@
+/home/george/dong/devel/.private/jackal_description/lib/pkgconfig/jackal_description.pc

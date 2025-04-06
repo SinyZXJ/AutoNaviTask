@@ -1,0 +1,6 @@
+devel_space: /home/george/dong/devel
+install: false
+install_space: /home/george/dong/install
+profile: default
+source_space: /home/george/dong/src
+workspace: /home/george/dong

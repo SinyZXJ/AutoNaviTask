@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+import rospy
+import open3d as o3d
+import ros_numpy
+from sensor_msgs.msg import PointCloud2
+
+def point_cloud_callback(msg):
+# 将 ROS PointCloud2 转换为 numpy 数组 (N,3)
+    pc_array = ros_numpy.point_cloud2.pointcloud2_to_xyz_array(msg)
+
+    # 转成 open3d 点云对象
+    pc_o3d = o3d.geometry.PointCloud()
+    pc_o3d.points = o3d.utility.Vector3dVector(pc_array)
+
+    # 生成文件名，例如根据时间戳
+    filename = "cloud_{:.3f}.pcd".format(msg.header.stamp.to_sec())
+    # 保存为 PCD
+    o3d.io.write_point_cloud(filename, pc_o3d)
+    rospy.loginfo("已保存点云到: %s", filename)
+
+def main():
+    rospy.init_node('save_raw_pointcloud')
+    rospy.Subscriber("/mid/points", PointCloud2, point_cloud_callback, queue_size=1)
+    rospy.spin()
+
+if __name__ == '__main__':
+    main()

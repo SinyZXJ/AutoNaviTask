@@ -1,0 +1,5 @@
+jackal_description
+/home/george/dong/devel/.private/jackal_description/cmake.lock /home/george/dong/devel/./cmake.lock
+/home/george/dong/devel/.private/jackal_description/share/jackal_description/cmake/jackal_descriptionConfig-version.cmake /home/george/dong/devel/share/jackal_description/cmake/jackal_descriptionConfig-version.cmake
+/home/george/dong/devel/.private/jackal_description/share/jackal_description/cmake/jackal_descriptionConfig.cmake /home/george/dong/devel/share/jackal_description/cmake/jackal_descriptionConfig.cmake
+/home/george/dong/devel/.private/jackal_description/lib/pkgconfig/jackal_description.pc /home/george/dong/devel/lib/pkgconfig/jackal_description.pc

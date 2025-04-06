@@ -1,0 +1,35 @@
+#!/usr/bin/env python
+import rospy
+from sensor_msgs.msg import PointCloud2
+import tf2_ros
+import tf2_sensor_msgs  # 用于点云数据的转换
+
+def point_cloud_callback(msg):
+    desired_frame = "base_link"  # 目标坐标系
+    if msg.header.frame_id != desired_frame:
+        tf_buffer = tf2_ros.Buffer()
+        listener = tf2_ros.TransformListener(tf_buffer)
+        try:
+            # 获取从 msg.header.frame_id 到 desired_frame 的变换，等待时间3秒
+            transform = tf_buffer.lookup_transform(desired_frame,
+                                                   msg.header.frame_id,
+                                                   rospy.Time(0),
+                                                   rospy.Duration(3.0))
+            # 将点云数据转换到目标坐标系
+            transformed_cloud = tf2_sensor_msgs.do_transform_cloud(msg, transform)
+            rospy.loginfo("转换后的点云 frame_id: %s", transformed_cloud.header.frame_id)
+            # 在此处可以进一步处理 transformed_cloud 数据
+        except Exception as e:
+            rospy.logerr("转换时出错: %s", e)
+    else:
+        rospy.loginfo("接收到的点云数据已在目标坐标系下")
+        # 如果数据已经在目标坐标系，直接处理 msg
+
+def main():
+    rospy.init_node('pointcloud_extractor')
+    rospy.Subscriber("/mid/points", PointCloud2, point_cloud_callback)
+    rospy.spin()
+
+if __name__ == '__main__':
+    main()
+
