@@ -1,0 +1,28 @@
+# Core ROS dependencies (managed via rosdep or system-wide ROS)
+rospy
+rosbag
+rosgraph
+roslaunch
+geometry_msgs
+sensor_msgs
+std_msgs
+tf2_ros
+tf2_geometry_msgs
+gazebo_msgs
+cv_bridge
+
+# Core Python libraries (often already included)
+numpy
+opencv-python
+scipy
+matplotlib
+
+# OCR and Deep Learning
+easyocr==1.6.1  # This edition is more steady, but you can also try the newest one
+torch==1.10.2   # The version that matches your cuda
+
+# Reinforcement Learning
+stable-baselines3==1.7.0
+gymnasium==0.28.1
+
+transformations==2022.9.26  # for replacing tf.transformations
