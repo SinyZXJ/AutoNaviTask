@@ -29,7 +29,7 @@ Note that ROS related dependencies are not recommended to be installed by pip.
 
 cd
 git clone https://github.com/SinyZXJ/AutoNaviTask.git
-cd AutoNaviTask
+cd AutoNaviTask-main
 
 rosdep install --from-paths src --ignore-src -r -y
 
