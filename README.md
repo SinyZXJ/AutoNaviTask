@@ -6,7 +6,6 @@ Members: Haozheng, Sihan, Zaishu, Xingjian, Haoze, Yile
 ## Task Overview
 
 <img src="pics\task_cover.png" alt="bridge" style="zoom:100%;" />
-=======
 Detailed requirements are as listed under: [NUS-Advanced-Robotics-Centre/ME5413_Final_Project: NUS ME5413 Autonomous Mobile Robotics Final Project](https://github.com/NUS-Advanced-Robotics-Centre/ME5413_Final_Project)
 
 Kindly follow installation steps :-)
@@ -56,9 +55,9 @@ python3 main.py
 
 **Haozheng - *Step1 Planning + Point Cloud Matching + Navigate to Final Box***
 
-<img src="pics\t1plan.png" alt="bridge" style="zoom:100%;" />
+<img src="pics\t1plan.png" alt="bridge" style="zoom:150%;" />
 
-<img src="pics\select.png" alt="bridge" style="zoom:100%;" />
+<img src="pics\select.png" alt="bridge" style="zoom:180%;" />
 
 **Sihan - *Mapping + Localization***
 
@@ -66,7 +65,7 @@ python3 main.py
 
 **Zaishu - *Planning (RL Methods & Basic Methods)***
 
-<img src="pics\count.png" alt="bridge" style="zoom:80%;" />
+<img src="pics\count.png" alt="bridge" style="zoom:60%;" />
 
 **Xingjian - *Planning (RL Methods & Basic Methods) + Slides Making***
 
